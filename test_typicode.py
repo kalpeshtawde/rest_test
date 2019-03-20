@@ -22,7 +22,7 @@ class TestTyopicodeRest(unittest.TestCase):
     def test_albums(self):
         """
         Test to make sure,
-        > /album api is respding
+        > /album api is respoding
         > Has utf-8 encoding
         > Response is in json
         > Response contains all api attributes
@@ -50,10 +50,10 @@ class TestTyopicodeRest(unittest.TestCase):
                 key in album for key in self._config['rest']['albums']
             ), "{} album does not contains all keys".format(album)
 
-    def _test_users(self):
+    def test_users(self):
         """
         Test to make sure,
-        > /album api is respding
+        > /album api is respoding
         > Has utf-8 encoding
         > Response is in json
         > Response contains all api attributes
