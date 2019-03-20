@@ -1,0 +1,8 @@
+{
+  "rest": {
+    "albums": ["userId", "id", "title"],
+    "users": [
+      "id", "name", "username", "email", "address", "phone", "website", "company"
+    ]
+  }
+}
