@@ -12,6 +12,7 @@ class TestTyopicodeRest(unittest.TestCase):
         Read and load json config file
         """
 
+        # Read and load json config file
         configFile = "config/config.json"
         try:
             with open(configFile, "r") as fh:
